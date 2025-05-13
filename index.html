@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hancary | Carry with Ease, Carry with Breeze</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #000;
+    }
+    header, nav, footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2em;
+      max-width: 960px;
+      margin: auto;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 1em;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    footer a {
+      color: #fff;
+      margin: 0 0.5em;
+    }
+    @media (max-width: 600px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hancary</h1>
+    <p>Carry with Ease, Carry with Breeze</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Hancary</h2>
+    <p>We craft thoughtfully designed products that make your everyday easier and breezier.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Hancary was founded with a vision to offer carefully developed, high-quality products that cater to the needs of our customers. Our passion for excellence has always driven us and continues to do so. We believe that every product we offer should make a difference and contribute to a better shopping experience for you.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="fan.jpg" alt="Portable Fan">
+        <h3>Portable Fan</h3>
+        <p><a href="#">View on Shopee</a></p>
+      </div>
+      <div class="product">
+        <img src="tumbler.jpg" alt="Tumbler">
+        <h3>Tumbler</h3>
+        <p><a href="#">View on Shopee</a></p>
+      </div>
+      <div class="product">
+        <img src="powerbank.jpg" alt="Power Bank">
+        <h3>Power Bank</h3>
+        <p><a href="#">View on Shopee</a></p>
+      </div>
+      <div class="product">
+        <img src="earbuds.jpg" alt="Earbuds">
+        <h3>Earbuds</h3>
+        <p><a href="#">View on Shopee</a></p>
+      </div>
+      <div class="product">
+        <img src="bag.jpg" alt="Crochet Bag">
+        <h3>Crochet Bag</h3>
+        <p><a href="#">View on Shopee</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <p><strong>Q: Where can I buy your products?</strong><br>A: You can find us on Shopee (link coming soon!).</p>
+    <p><strong>Q: Do you offer warranty?</strong><br>A: Yes, we ensure quality and provide customer support for all products.</p>
+    <p><strong>Q: Are new products coming soon?</strong><br>A: Yes! Stay tuned for crochet handphone bags and more.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Got questions or feedback? Reach us at <a href="mailto:hello@hancary.com">hello@hancary.com</a></p>
+    <p>Follow us on <a href="https://instagram.com" target="_blank">Instagram</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hancary. All rights reserved.</p>
+    <p><a href="#">Instagram</a> | <a href="#">Shopee</a> | <a href="mailto:hello@hancary.com">Email</a></p>
+  </footer>
+</body>
+</html>
